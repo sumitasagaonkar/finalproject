@@ -1,0 +1,42 @@
+/*Photo gallary */
+.gallary
+{
+	margin:.5vw;
+	font-size:0;
+	display: -ms-flexbox;
+	-ms-flexbox-wrap: wrap;
+	-ms-flexbox-direction:column;
+	-webkit-flex-flow:row wrap;
+flex-flow: row wrap;
+display: -webkit-box;
+display: flex;
+
+
+}
+.gallarydiv
+{
+	-webkit-box-flex:auto;
+	-ms-flex:auto;
+	flex: auto;
+	width: 200px;
+	margin:.5vw;
+
+}
+.gallarydivimg
+{
+	width:100;
+	height: auto;
+
+
+}
+@media screen and (max-width:400px)
+{
+	.gallarydiv{
+		margin: 0;
+
+	}
+	.gallary
+	{
+		padding: 0;
+	}
+}

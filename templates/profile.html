@@ -1,0 +1,69 @@
+{%  extends 'base.html' %}
+{% load static %}
+{% block content %} 
+
+<style>
+	.profile-pic{
+		max-width: 200px;
+		max-height:200px;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+</style>
+
+<br>
+<div class="row">
+
+
+
+	<div class="col-md-4">
+		<div class="card card-body">
+			<a class="btn btn-warning" href=""> &#8592; Back to Home</a>
+			<hr>
+			<h3 style="text-align: center">{{request.user.customer.name}}</h3>
+			<hr>
+			<img class="profile-pic" src="" >
+			<a class="btn btn-outline-info  btn-sm btn-block" href="{% url 'askq' %}">Ask Questions</a>
+			<a class="btn btn-outline-info  btn-sm btn-block" href="{% url 'orderbook' %}">Order book</a>
+			<a class="btn btn-outline-info  btn-sm btn-block" href="">Update Profile</a>
+
+
+		
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="col-md">
+			<div class="card card-body">
+				<h5>Contact Information</h5>
+				<hr>
+				<p>User name  : {{request.user}}</p>
+				<p>Full name  : {{request.user.customer.name}}</p>
+				<p>Email      : {{request.user.customer.email}}</p>
+				<p>Phone      : {{request.user.customer.phone}}</p>
+				<p>Addres     : {{request.user.customer.adress}}</p>
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="col-md">
+			<div class="card card-body">
+				<h5>Contact Information</h5>
+				<hr>
+				<p>User name  : {{request.user}}</p>
+				<p>Full name  : {{request.user.customer.name}}</p>
+				<p>Email      : {{request.user.customer.email}}</p>
+				<p>Phone      : {{request.user.customer.phone}}</p>
+				<p>Addres     : {{request.user.customer.adress}}</p>
+				
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+{% endblock %}

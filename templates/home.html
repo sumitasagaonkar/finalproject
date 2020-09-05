@@ -1,0 +1,40 @@
+{%  extends 'base.html' %}
+{% load static %}
+
+
+{% load static %}
+{% block content %}
+
+<h1>helloe word</h1>
+<a href="{% url 'constact' %}">go to constact</a><br><hr>
+<h1>{{ user }}</h1>
+<h1>{{ user }}</h1>
+<h1>{{ user.name }}</h1>
+<h1>{{ user.email }}</h1>
+
+<h1>{{ request.user.customer.id }}</h1>
+
+
+
+<a href="{% url 'constactus' %}">go to constactPage</a><br><hr>
+<a href="{% url 'orderbook' %}">go to OrderbookPage</a><br><hr>
+<a href="{% url 'askq' %}">go to askquaPage</a><br><hr>
+<a href="{% url 'setting' %}">go to settingsPage</a><br><hr>
+<a href="{% url 'profilesetting' %}">profile of the user</a><br><hr>
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

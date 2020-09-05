@@ -1,0 +1,525 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="{% static 'css\style.css' %}">
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<title>my website</title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'constactus' %}">Constact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'orderbook' %}">Order Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'askq' %}">Ask Quations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'profilesetting' %}">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/accounts/logout/">log out</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'profilesetting' %}">login</a>
+          <a class="dropdown-item" href="#"></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="hero">
+<div class="hero container">
+<div>
+<h1> स्वामी ओम प्रकाश सरस्वती</h1>
+<h1>स्वामी सत्य भक्त भारती</h1>
+<h1>अध्यात्म क्या है ?</h1>
+<a href="#" type="button" class="cta">अधिक जानिए</a>
+</div>
+</div>
+</section>
+<section id="about">
+	<div class="about container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="col-left">
+			<div id="a112"class="about-img">
+		         <img  id="a113" src="{% static 'css\img1.jpeg' %}"/>
+			</div>
+		</div>
+		<div class="col-right">
+		    <h1 class="section-title">स्वामी <span>ओम प्रकाश</span> सरस्वती</h1>
+			 <h2>Swami Om Prakash Saraswati</h2>
+			 <p>
+				Swamiji, as he was lovingly called, 
+				was sent by Osho to start a Centre in
+				 Delhi in 1978. With total dedication 
+				 and surrender, he established the Osho
+				  Rajyoga Meditation Centre which is the
+				   fountain head of all meditation activities 
+				   in the Capital Region of Delhi. Swamiji’s 
+				   love and dedication to his master is the
+					inspiration behind the flowering of many
+					 creative dimensions – जिंदगी में एक दूसरे के जैसा होना आवश्यक नहीं है
+					 बल्कि एक दूसरे के लिए होना आवश्यक है।
+					 मनुष्य यदि अपनी इच्छाओं को घटाकर देखे, तो खुशियों का संसार नजर आएगा।
+				
+				 and surrender, he established the Osho
+				  Rajyoga Meditation Centre which is the
+				   fountain head of all meditation activities 
+				   in the Capital Region of Delhi. Swamiji’s 
+				   love and dedication to his master is the
+					inspiration behind the flowering of many
+					 creative dimensions – 
+				Oshodham, Osho World Patrika and oshoworld.com.
+				Swamiji, as he was lovingly called, 
+				was sent by Osho to start a Centre inजिंदगी में एक दूसरे के जैसा होना आवश्यक नहीं है
+				बल्कि एक दूसरे के लिए होना आवश्यक है।
+				मनुष्य यदि अपनी इच्छाओं को घटाकर देखे, तो खुशियों का संसार नजर आएगा।
+				
+				 Delhi in 1978. With total dedication 
+				 and surrender, he established the Osho
+				  Rajyoga Meditation Centre which is the
+				   fountain head of all meditation activities 
+				   in the Capital Region of Delhi. Swamiji’s 
+				   love and dedication to his master is the
+					inspiration behind the flowering of many
+					 creative dimensions – 
+				Oshodham, Osho World Patrika and oshoworld.com.
+				
+			</p>
+			<a href="#" class="cta">Know More</a>
+		</div>
+	</div>
+</section>
+<section id="about">
+	<div class="about container">
+		<div class="col-left">
+			<div id="a112"class="about-img">
+		         <img  id="a113"src="{% static 'css\img3.jpeg'  %}"/>
+			</div>
+		</div>
+		<div class="col-right">
+		    <h1 class="section-title">स्वामी <span>सत्य भक्त</span> भारती</h1>
+			 <h2>Swami Satya Bhakt Bharti</h2>
+			 <p>
+				I was initiated into sannyas in Poona 
+				on Guru Purnima in 1976. When I shifted
+				 to Tilak nagar in Delhi, Swami Satyatirth, 
+				 who had taken sannyas in the same year as me,
+				  informed that Bhagwan has sent Swami Om Prakash
+				   to Delhi to start a centerजिंदगी में एक दूसरे के जैसा होना आवश्यक नहीं है
+				   बल्कि एक दूसरे के लिए होना आवश्यक है।
+				   मनुष्य यदि अपनी इच्छाओं को घटाकर देखे, तो खुशियों का संसार नजर आएगा।
+					and that Swamiji 
+				  a teacher by 
+					profession, my school was closed, so I 
+					happily agreed.इच्छाओं को घटाकर देखे, तो खुशियों का संसार नजर आएगा।
+					  
+					  For the first time a miracle happened. 
+			I was initiated into sannyas in Poona 
+				on Guru Purnima in 1976. When I shifted
+				 to Tilak nagar in Delhi, Swami Satyatirth, 
+				 who had taken sannyas in the same year as me,
+				  informed that Bhagwan has sent Swami Om Prakash
+				  जिंदगी में एक दूसरे के जैसा होना आवश्यक नहीं है
+				  बल्कि एक दूसरे के लिए होना आवश्यक है।
+				  मनुष्य यदि अपनी इच्छाओं को घटाकर देखे, तो खुशियों का संसार नजर आएगा।
+				  
+				  <a href="#">पढ़े</a>
+					</p>
+			<a href="#" class="cta">Know More</a>
+		</div>
+	</div>
+</section>
+
+	<h1 class="m">ज्ञान की बातें</h1>
+
+<section id="articles">
+<div class="article container">
+<div class="article-top">
+	<h1 class="section-title">जीवन<span> क्या</span> है ?</h1>
+	<div class="icon">
+		<img src="{% static 'imgs\a1.png' %}"/>
+		</div>
+	<p>
+			यह प्रश्न हम सभी का है और इस प्रश्न का सटीक उत्तर शायद किसी के पास हो। प्रत्येक व्यक्ति के लिए जीवन के अलग अलग माइने हो सकते हैं क्योंकि जीवन को समझने का और उसे परिभाषित करने का कोई आधारिक सिद्धांत नहीं है।
+
+सामान्यतः जिसे हम जीवन समझते है वो तो मृत्यु की ओर बढ़ रहा है। वास्तविक जीवन तो मानव सोंच से परे है। इसलिए इस लेख जीवन क्या है ? में हम जीवन को उपमाओं के साथ नहीं देखेंगे बल्कि इस विशाल अनंत शब्द जीवन का बहुत ही संछिप्त विश्लेषण करेंगे और इसको समझने का प्रयास करेंगे।
+
+वैज्ञानिक दृष्टि से इस पृथ्वी पर जीवन समस्त जीवप्राणी व निर्जीवप्राणी के विकास की एक ख़ास प्रक्रिया है जो कार्बनिक और अकार्बनिक तत्वों पर आधारित है। और इस प्रक्रिया में अदृश्य ऊर्जा का समावेश होता है जो कभी खत्म नहीं होती बस इस अदृश्य ऊर्जा का स्थान्तरण होता रहता है। और इसी स्थान्तरण से जीवन निरन्तर चलता रहता है।
+जीवों में जीवन की इस प्रक्रिया में शामिल मानव अपने आप मे सबसे भिन्न और अद्धभुत है। तथा इस प्रकृति का वास्तव में सबसे अधिक लाभ मानव को ही मिला है। सभी जीवों में अपने अपने स्तर पर जीवन को जीने की अपनी अपनी सोंच और समझ है।
+				के बाद भी खुशबू देता रहता है। <a href="#"><b>आगे पढ़े</b></a>
+			</p>
+	
+</div>
+<div class="article-top">
+	<h1 class="section-title">अध्यात्म<span> क्या</span> है ?</h1>
+	<div class="icon">
+		<img src="{% static 'imgs\a2.png' %}"/>
+		</div>
+	<p>
+		अध्यात्म का अर्थ है अपने भीतर के चेतन तत्व को जानना,मनना और दर्शन करना अर्थात अपने आप के बारे में जानना या आत्मप्रज्ञ होना |गीता के आठवें अध्याय में अपने स्वरुप अर्थात जीवात्मा को अध्यात्म कहा गया है | "परमं स्वभावोऽध्यात्ममुच्यते "|
+
+
+		आत्मा परमात्मा का अंश है यह तो सर्विविदित है | जब इस सम्बन्ध में शंका या संशय,अविश्वास की स्थिति अधिक क्रियमान होती है तभी हमारी दूरी बढती जाती है और हम विभिन्न रूपों से अपने को सफल बनाने का निरर्थक प्रयास करते रहते हैं जिसका परिणाम नाकारात्मक ही होता है |
+		
+		ये तो असंभव सा जान पड़ता है-मिटटी के बर्तन मिटटी से अलग पहचान बनाने की कोशिश करें तो कोई क्या कहे ? यह विषय विचारणीय है |
+		
+		अध्यात्म की अनुभूति सभी प्राणियों में सामान रूप से निरंतर होती रहती है | 
+		परमात्मा के असीम प्रेम की एक बूँद मानव में पायी जाती है जिसके कारण हम उनसे संयुक्त होते हैं किन्तु कुछ समय बाद इसका लोप हो जाता है और हम निराश हो जाते हैं,सांसारिक बन्धनों में आनंद ढूंढते ही रह जाते हैं परन्तु क्षणिक ही ख़ुशी पाते हैं |
+		<a href="#"><b>आगे पढ़े</b></a>
+	</p>				 
+</div>
+<div class="article-top">
+	<h1 class="section-title">धर्म <span>क्या</span> है ?</h1>
+	<div class="icon">
+		<img src="{% static 'imgs\a3.png' %}"/>
+		</div>
+	<p>
+		“धार्यते इति धर्म:” इसका मतलब है जो धारण करते है वहीं धर्म कहलाता है अथवा लोक और परलोक के सुखों की सिद्धि के लिए सार्वजनिक पवित्र गुणों व कर्मो को धारण करना ही धर्म माना गया है. दूसरे शब्दों में यह भी कहा जा सकता हैं कि मनुष्य के जीवन को ऊँचा व पवित्र बनाने वाली ज्ञानानुकुल जो शुद्ध सार्वजनिक मर्यादा पद्धति हैं. जिसे धर्म कहा गया है.
+
+जैमिनी मुनि के मीमांसा दर्शन के दूसरे सूत्र को भी धर्म का लक्षण कहा जाता है. बता दें कि मीमांसा दर्शन हिन्दुओं के छः दर्शनों में से एक है. इस शास्त्र का ‘पूर्वमीमांसा’ व वेदान्त का ‘उत्तरमीमांसा’ भी कहते है. लोक परलोक के सुखों को भी एक तरीके से धर्म का लक्षण कहा जाता है.
+
+कहा जाता है कि वैदिक साहित्य भारतीय संस्कृति के प्राचीनतम स्वरूप पर प्रकाश डालने वाला विश्व का प्राचीनतम् साहित्य है. वैदिक साहित्य में धर्म वस्तु के स्वाभाविक गुणों और कर्तव्यों के अर्थो में भी आया हैं. जैसे जलाना और प्रकाश देना अग्नि का धर्म हैं. और प्रजा का पालन और रक्षा करना राजा का धर्म होता हैं
+<a href="#"><b>आगे पढ़े</b></a>	
+</p>			 	 
+</div>
+<div class="article-top">
+	<h1 class="section-title">गुरु<span> क्या</span> कहते है !</h1>
+	<div class="icon">
+		<img src="{% static 'imgs\a4.png' %}"/>
+		</div>
+	<p>
+		जीवन एक ऐसी यात्रा है जिसमें आप चालक होते हैं, 
+		लेकिन आपको यह ज्ञात नहीं रहता कल क्या होगा"अनुभव, 
+		परिवार, दोस्तों, कठिनाइयों के बीच यात्रा करने के लिए कवच हैं।
+		जो धारण करने योग्य है, वही धर्म है। पृथ्वी समस्त प्राणियों को
+		धारण किए हुए है। जैसे हम किसी नियम को, व्रत को धारण 
+		करते हैं इत्यादि। इसका मतलब धर्म का अर्थ है कि जो सबको 
+		धारण किए हुए है अर्थात धारयति- इति धर्म:!। अर्थात जो सबको 
+		संभाले हुए है। सवाल उठता है कि कौन क्या धारण किए हुए हैं?
+		 धारण करना सही भी हो सकता है और गलत भी।
+		 जो धारण करने योग्य है, वही धर्म है। पृथ्वी समस्त प्राणियों को
+				 धारण किए हुए है। जैसे हम किसी सवाल उठता है कि कौन क्या धारण किए हुए हैं?
+				 धारण करना सही भी हो सकता है और गलत भी।
+				 जो धारण करने योग्य है, वही धर्म है। पृथ्वी समस्त प्राणियों को
+						 धारण किए हुए है। जैसे हम किसी
+						 <a href="#"><b>आगे पढ़े</b></a>	 </p>
+					 	 
+</div>
+	
+	
+		
+			
+</div>	
+</div>
+</section>
+<section id="events">
+	<div class="events container">
+		<div class="events-header">
+			<h1 class="section-title">
+				वीडियो <span>इवेंट</span> 
+			</h1>
+		</div>
+		<div class="all-events">
+			<div class="event-item">
+				<div class="event-info">
+					<h1>कीर्तन</h1>
+					<h2>Kīrtana (praying)</h2>
+					<p>
+						Date:11/8/2020<br>
+						Place:MP,India.<br>
+						स्वामी ओम प्रकाश सरस्वती<br>
+						Kirtan (Sanskrit: कीर्तन; IAST: Kīrtana) is 
+						a Sanskrit word that means "narrating,
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+			ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+			पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+			अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+			ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+			पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+						  </p>
+				</div>
+				<div class="event-img">
+					<iframe width="550" height="400" src="https://www.youtube.com/embed/442ewPgXHQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				
+			</div>
+			<div class="event-item">
+				<div class="event-info">
+					<h1>कीर्तन</h1>
+					<h2>Kīrtana (praying)</h2>
+					<p>
+						Date:31/7/2020<br>
+						UP,India.<br>
+						स्वामी ओम प्रकाश सरस्वती<br>
+						Kirtan (Sanskrit: कीर्तन; IAST: Kīrtana) is 
+						a Sanskrit word that means "narrating,
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+					</p>
+				</div>
+				<div class="event-img">
+					<<iframe width="550" height="400" src="https://www.youtube.com/embed/hWCyqjLzRII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				
+			</div>
+			<div class="event-item">
+				<div class="event-info">
+					<h1>कीर्तन</h1>
+					<h2>Kīrtana (praying)</h2>
+					<p>
+						Date:11/6/2020<br>
+						Place:Delhi,India.<br>
+						स्वामी ओम प्रकाश सरस्वती<br>
+						Kirtan (Sanskrit: कीर्तन; IAST: Kīrtana) is 
+						a Sanskrit word that means "narrating,
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+					</p>
+				</div>
+				<div class="event-img">
+					<iframe width="550" height="400" src="https://www.youtube.com/embed/rahKfNNp2FI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				
+			</div>
+			<div class="event-item">
+				<div class="event-info">
+					<h1>कीर्तन</h1>
+					<h2>Kīrtana (praying)</h2>
+					<p>Date:22/4/2020<br>
+						Place:Delhi,India.<br>
+						स्वामी ओम प्रकाश सरस्वती<br>
+						Kirtan (Sanskrit: कीर्तन; IAST: Kīrtana) is 
+						a Sanskrit word that means "narrating,
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+					</p>
+				</div>
+				<div class="event-img">
+					<iframe width="550" height="400" src="https://www.youtube.com/embed/bo62sjQ0CmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				</div>
+				
+			</div>
+			<div class="event-item">
+				<div class="event-info">
+					<h1>कीर्तन</h1>
+					<h2>Kīrtana (praying)</h2>
+					<p>
+						Date:12/2/2020<br>
+						Place:Delhi,India.<br>
+						स्वामी ओम प्रकाश सरस्वती<br>
+						Kirtan (Sanskrit: कीर्तन; IAST: Kīrtana) is 
+						a Sanskrit word that means "narrating,
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।
+						अध्यात्म रोचक शब्द है। सामान्यतया भक्ति या 
+						ईश्वर विषयक चर्चा को अध्यात्म कहा जाता है। 
+						पूजा पाठ करने वाले ‘आध्यात्मिक’ कहे जाते हैं।	 
+					</p>
+				</div>
+				<div class="event-img">
+					<iframe width="550" height="400" src="https://www.youtube.com/embed/6Ln-XHD2le4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+<section id="contact">
+	<div class="contact container">
+		<div><h1 class="section-title">स<span>प</span>र्क</h1></div>
+
+	<div class="contact-items"> 
+		<div class="contact-item">
+			<div class="icon">
+                  <img src="{% static 'imgs\f0.png' %}"/>
+			</div>
+			<div class="contact-info">
+                  <h1>
+					फ़ोन
+				  </h1>
+				  <h2>
+					  25 2525 3678
+				  </h2>
+				  <h2>
+					26 2626 3678
+				</h2>
+			</div>
+		</div>
+		<div class="contact-item">
+			<div class="icon">
+                  <img src="{% static 'imgs\f2.png' %}"/>
+			</div>
+			<div class="contact-info">
+                  <h1>
+					ईमेल
+				  </h1>
+				  <h2>
+					  contactus@mail.com
+				  </h2>
+				  <h2>
+					ohocontact@mail.com
+				</h2>
+			</div>
+		</div>
+		<div class="contact-item">
+			<div class="icon">
+                  <img src="{% static 'imgs\f3.png' %}"/>
+			</div>
+			<div class="contact-info">
+                  <h1>
+					पता
+				  </h1>
+				  <h2>
+					  Delhi, India
+				  </h2>
+				  <h2>
+					Sangli, India
+				</h2>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section id="footer">
+	<div class="footer container">
+		<div class="brand">
+			<h1 class="section-title">
+				<span>स</span>त्संग <span>सेवा</span> <span>भ</span>जन
+			</h1>
+			<h2>
+				Journey to the shore 
+			</h2>
+		</div>
+        <div class="social-icon">
+			<div class="social-item">
+                  <a href="#"><img src="{% static 'imgs\l1.png' %}"/></a>
+			</div>
+			<div class="social-item">
+				<a href="#"><img src="{% static 'imgs\l2.png' %}"/></a>
+		  </div>
+		  <div class="social-item">
+			<a href="#"><img src="{% static 'imgs\l3.png' %}"/></a>
+	  </div>
+	  <div class="social-item">
+		<a href="#"><img src="{% static 'imgs\l4.png' %}"/></a>
+	   </div>
+	   
+	   
+		</div>
+		<p>Copyright @2020 Sumit Asagaonkar. All rights Reserved</p>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
